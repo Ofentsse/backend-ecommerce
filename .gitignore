@@ -1,0 +1,283 @@
+# ============================================
+# Java & Maven/Gradle
+# ============================================
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+*.log
+*.tmp
+*.pid
+*.seed
+*.pid.lock
+
+# Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+# Gradle
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+gradlew
+gradlew.bat
+gradle-app.setting
+!gradle-wrapper.jar
+
+# ============================================
+# IDE Files
+# ============================================
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+.idea_modules/
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/dataSources.ids
+.idea/dataSources.xml
+.idea/sqlDataSources.xml
+.idea/dynamic.xml
+.idea/uiDesigner.xml
+.idea/gradle.xml
+.idea/maven.xml
+.idea/libraries/
+.idea/caches/
+.idea/modules.xml
+.idea/compiler.xml
+.idea/jarRepositories.xml
+.idea/encodings.xml
+.idea/vcs.xml
+
+# Eclipse
+.classpath
+.project
+.settings/
+.metadata/
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+.localstorage
+.breakpoints
+.factorypath
+.springBeans
+.sts4-cache
+
+# VS Code
+.vscode/
+*.code-workspace
+.vscode-test/
+.vscode/extensions.json
+.history/
+
+# NetBeans
+nbproject/
+nb-build.xml
+dist/
+nbdist/
+.nb-gradle/
+
+# ============================================
+# Application-Specific
+# ============================================
+# Application properties with secrets (IMPORTANT!)
+application.properties
+application-dev.properties
+application-prod.properties
+application-staging.properties
+*.properties
+*.yml
+*.yaml
+!application-example.properties
+!application-example.yml
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+.env.production
+.env.development
+*.env
+
+# ============================================
+# Stripe Specific
+# ============================================
+# Never commit Stripe keys!
+stripe/
+stripe-keys/
+secrets/
+keys/
+*.key
+*.pem
+*.crt
+*.p12
+*.jks
+*.keystore
+*.truststore
+*.secret
+credentials/
+!credentials-example/
+
+# Stripe webhook signing secrets
+webhook-secret.txt
+stripe-webhook-key.txt
+*.webhook-secret
+
+# ============================================
+# Database
+# ============================================
+# H2 Database files
+*.db
+*.h2.db
+*.mv.db
+*.trace.db
+*.lck
+*.lock
+*.log.db
+*.data.db
+*.script.db
+
+# PostgreSQL
+*.sqlite
+*.sqlite3
+*.db3
+pg_hba.conf
+postgresql.conf
+
+# MongoDB
+dump/
+mongodump/
+data/
+db-data/
+
+# ============================================
+# Logs
+# ============================================
+logs/
+*.log
+*.log.gz
+*.log.zip
+*.out
+*.err
+spring.log
+application.log
+access.log
+error.log
+debug.log
+trace.log
+*.log.*
+
+# ============================================
+# OS / System
+# ============================================
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+*.tmp
+desktop.ini
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+*.swp
+*.swo
+
+# Linux
+*~
+.directory
+*.pid
+*.socket
+
+# ============================================
+# Build Tools
+# ============================================
+*.hprof
+*.heap
+dump/
+heapdump/
+*.dump
+
+# ============================================
+# Docker
+# ============================================
+docker-compose.override.yml
+docker-compose.prod.yml
+.dockerignore
+Dockerfile.local
+
+# ============================================
+# Testing
+# ============================================
+coverage/
+.nyc_output/
+cobertura.ser
+*.jacoco
+test-output/
+surefire-reports/
+failsafe-reports/
+*.test
+
+# ============================================
+# Frontend (if using React/Vue with Spring Boot)
+# ============================================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+dist/
+build/
+.parcel-cache/
+.next/
+out/
+.cache/
+
+# ============================================
+# Other
+# ============================================
+*.zip
+*.tar.gz
+*.rar
+*.7z
+*.bak
+*.orig
+*.rej
+*.old
+*.patch
+*.diff
+
+# ============================================
+# Sensitive Configuration
+# ============================================
+# Keep template files but ignore actual configs
+*secret*
+*password*
+*credential*
+*private*
+*key*
+!*-example.*
+!*sample.*
+!*template.*
